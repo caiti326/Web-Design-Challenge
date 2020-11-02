@@ -17,7 +17,7 @@
     <!--Navbar adjustments-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand text-white" href="index.html" >Latitude</a>
+            <a class="navbar-brand text-white" href="index.html" >Learning About Latitudes</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -54,33 +54,36 @@
                     <h3>Summary: Latitude vs. X </h3>
                     <hr>
                     <div class="thumbnail">
-                        <img class="img-thumbnail float-left" src="Resources/assets/images/Fig1.png " width="50%" alt="temperature">
+                        <img class="img-thumbnail float-left" src="Resources/Images/Fig1.png " width="50%" alt="temperature">
                     </div>
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.  </p> 
+                    <p>This project analyzed elements of weather changing across the Northern and Southern Hemispheres. The analysis was based on data pulled from the <a href="https://openweathermap.org/api">OpenWeatherMap API</a> and looked at more than 500 cities to determine final results.</p> 
                     
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <p>A topline analysis of the data determined the following:</p>
+                    <p>* The Northern Hemisphere has much more dramatic weather conditions than the Southern Hemisphere</p>
+                    <p>* As expected, temperatures are the highest around the eqautor and get cooler as you head toward the polar regions. However, interestingly, humidity does not follow this same pattern, remaining relatively normalized across the Southern Hemisphere but increasing significantly as you get closer to the North Pole.</p>
+                    <p>* The further South you go, the less cloudy it gets (aka given the analysis around humidity, would be interesting to do additional analysis around precipitation and see if that helps draw correlations between lack of cloudiness and lack of humidity in southernmost regions).</p>
                 </div>
             </div>
             <!--visualization adjustments-->
             <div class="col-md-4">
                 <div class="col-md-12">
-                    <h3>Visualizations</h3>
+                    <h3>Explore the Visualizations</h3>
                     <hr>
                     <div class="row">
                         <div class="col-3 col-md-6">
-                            <a href="temp.html"><img src="Resources/assets/images/Fig1.png" width="100%"  alt="temperature">
+                            <a href="temp.html"><img src="Resources/Images/Fig1.png" width="100%"  alt="temperature">
                             </a> 
                         </div>
                         <div class="col-3 col-md-6">
-                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity"></a>
+                            <a href="humidity.html"><img src="Resources/Images/Fig2.png" width="100%" alt="humidity"></a>
                         </div>
                    
                         <div class="col-3 col-md-6">
-                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="100%"  alt="cloudiness"></a>
+                            <a href="cloudiness.html"><img src="Resources/Images/Fig3.png" width="100%"  alt="cloudiness"></a>
                         </div>
 
                         <div class="col-3 col-md-6">
-                            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png"width="100%"  alt="wind speed"></a>
+                            <a href="windspeed.html"><img src="Resources/Images/Fig4.png"width="100%"  alt="wind speed"></a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +93,7 @@
     
     <!-- Footer -->
     <footer class="page-footer font-small footer-dark">
-        <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2019
+        <div class="footer-copyright text-center py-3">© Site created by Caiti Donovan for the Columbia Coding Bootcamp Spring Cohort 2020
         </div>      
     </footer>
 </body>
