@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 
-View the live site: https://caiti326.github.io/Web-Design-Challenge/
+## View the live site: https://caiti326.github.io/Web-Design-Challenge/WebVisualizations
 
 Instructions:
 Latitude - Latitude Analysis Dashboard with Attitude
